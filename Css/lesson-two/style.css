@@ -1,0 +1,101 @@
+/* h4 {
+  background-color: aqua;
+  font-size: 30px;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: #000000;
+  color: #fff;
+}
+
+footer .container {
+  padding: 30px;
+}
+
+footer .container h4 {
+  font-size: 25px;
+}
+
+footer .container .social-media {
+  margin-top: 30px;
+}
+
+footer .container .social-media h6 {
+  font-size: 18px;
+}
+
+footer .container .social-media .icons {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+footer .container .download-apps {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+footer .container .download-apps h4 {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+footer .container .download-apps img {
+  width: 30px;
+  height: 30px;
+}
+
+footer .container form {
+  margin-top: 20px;
+}
+
+footer .container form h5 {
+  font-size: 22px;
+}
+
+footer .container form input {
+  margin-top: 15px;
+  width: 300px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer .container form input::placeholder {
+  color: #fff;
+}
+
+footer .container form p {
+  font-size: 14px;
+  color: gray;
+  font-weight: bold;
+  margin-top: 9px;
+}
+
+footer .container .phone{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+footer .container .phone .phone-icon i {
+    font-size: 40px;
+    color: yellow;
+}
+
+
+footer .container .phone .number h3{
+    margin-top: 10px;
+}
