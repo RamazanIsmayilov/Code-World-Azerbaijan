@@ -1,0 +1,42 @@
+/* hex */
+/* rgb */
+/* rgba */
+/* hsl */
+/* hsla */
+/* hwb */
+
+/* 1rem = 16px */
+/* 1em = 16px */
+/* 1vh = 1% */
+
+.simple {
+  background-color: red;
+  font-size: 32px;
+}
+
+.hex {
+  background-color: #ff0000;
+  font-size: 2rem;
+}
+
+.rgb {
+  background-color: rgb(255, 0, 0);
+  font-size: 2.5em;
+}
+
+.rgba {
+  background-color: rgba(255, 0, 0, 0.6);
+  font-size: 10vh;
+}
+
+.hsl {
+  background-color: hsl(0, 80%, 41%);
+}
+
+.hsla {
+  background-color: hsla(0, 80%, 41%, 0.5);
+}
+
+.hwb {
+  background-color: hwb(0 12% 18%);
+}
