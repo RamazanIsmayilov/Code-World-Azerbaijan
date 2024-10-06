@@ -1,0 +1,35 @@
+.boxs {
+  display: block;
+  position: relative;
+}
+
+.boxs .left {
+  display: inline-block;
+}
+
+.boxs .right {
+  display: inline-block;
+  position: absolute;
+}
+
+.boxs .left .box-one {
+  background-color: red;
+}
+
+.boxs .left .box-three {
+  background-color: blue;
+  margin-top: 10px;
+}
+
+.boxs .right .box-two {
+  height: 410px;
+  background-color: green;
+}
+
+.boxs .same {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
