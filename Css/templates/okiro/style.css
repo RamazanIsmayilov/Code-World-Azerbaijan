@@ -7,6 +7,8 @@
 body {
   background-color: #1f2833;
   font-family: "Nunito", sans-serif;
+  width: 85%;
+  margin: auto;
 }
 
 a {
@@ -18,8 +20,6 @@ li {
 }
 
 header {
-  width: 85%;
-  margin: auto;
   margin-top: 30px;
   display: flex;
   align-items: center;
@@ -81,4 +81,62 @@ header .right .sign-up a {
   font-weight: bolder;
   padding: 10px;
   border-radius: 20px;
+}
+
+main {
+  margin-top: 50px;
+}
+
+main .boxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .boxes .box {
+  padding: 15px;
+  border-radius: 25px;
+  transition: 0.5s;
+}
+
+main .boxes .box:hover {
+  transform: translateY(-10px);
+}
+
+main .boxes .one {
+  background-color: #d7f8ff;
+}
+
+main .boxes .two {
+  background-color: #fce6f0;
+}
+
+main .boxes .three {
+  background-color: #ffeab9;
+}
+
+main .boxes .box img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 25px;
+}
+
+main .boxes .box h5 {
+  font-size: 20px;
+  letter-spacing: 0.9px;
+  margin-top: 10px;
+}
+
+main .boxes .box a {
+  font-size: 13px;
+  letter-spacing: 0.9px;
+  margin-top: 10px;
+  color: #000;
+  font-weight: bold;
+}
+
+main .boxes .box a:hover {
+  text-decoration: underline;
 }
