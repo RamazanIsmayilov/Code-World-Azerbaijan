@@ -140,3 +140,64 @@ main .boxes .box a {
 main .boxes .box a:hover {
   text-decoration: underline;
 }
+
+.section-three {
+  margin-top: 120px;
+  display: flex;
+  /* align-items: center; */
+  gap: 30px;
+}
+
+.section-three .left img {
+  border-radius: 40px;
+}
+
+.section-three .right .creative {
+  background-color: #344052;
+  padding: 10px 15px;
+  border-radius: 20px;
+  width: 15%;
+}
+
+.section-three .right .creative p {
+  color: #fff;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.section-three .right .title {
+  margin-top: 50px;
+  width: 70%;
+}
+
+.section-three .right .title a {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.section-three .right .svg {
+  margin-top: 30px;
+}
+
+.section-three .right .svg svg {
+  width: 100px;
+}
+
+.section-three .right .svg svg path {
+  fill: #344052;
+}
+
+.section-three .right .description {
+  margin-top: 30px;
+}
+
+.section-three .right .description p {
+  color: #fff;
+  font-size: 19px;
+  width: 90%;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
